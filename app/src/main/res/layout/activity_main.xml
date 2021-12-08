@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="#4CAF50"
+                android:text="Card 1"
+                android:textColor="#263238" />
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:textColor="#b22222"
+                android:text="Card 2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is the scrolling app created by Ujjal K.C"
+                android:padding="10px"
+                android:textAlignment="center"
+
+                android:fontFamily="Times New Roman"/>
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:background="#52ff52"
+                android:text="Card 3" />
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:text="Card 4" />
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:text="Card 5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="This is the scrolling app created by Ujjal K.C"/>
+
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:text="Card 6" />
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:text="Card 7" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
